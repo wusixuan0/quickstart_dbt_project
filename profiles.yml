@@ -1,0 +1,13 @@
+quickstart_dbt_project:
+  outputs:
+    dev:
+      account: sh20409.ca-central-1.aws
+      database: DEMO_DBT
+      password: Tsqllgsy3
+      role: ACCOUNTADMIN
+      schema: QUICKSTART_SCHEMA
+      threads: 1
+      type: snowflake
+      user: sixuan
+      warehouse: dbt_DEV_WH
+  target: dev
